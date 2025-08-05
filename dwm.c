@@ -715,7 +715,11 @@ drawbar(Monitor *m)
 	char *mstext;
 	char *rstext;
 	int msx;
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 7ec75f6 (re-patching splitstatus with conventions)
 	for (c = m->clients; c; c = c->next) {
 		occ |= c->tags;
 		if (c->isurgent)
