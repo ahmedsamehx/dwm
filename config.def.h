@@ -7,17 +7,17 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int splitstatus        = 1;        /* 1 for split status items */
 static const char *splitdelim        = ";";       /* Character used for separating status */
-static const char *fonts[]          = { "Liberation Mono:size=12" };
-static const char dmenufont[]       = "Liberation Mono:size=13";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#bfbab4";
+static const char *fonts[]          = { "Liberation Mono:weight=bold:size=12" };
+static const char dmenufont[]       = "Liberation Mono:weight=bold:size=13";
+static const char col_gray1[]       = "#282828";
+static const char col_gray2[]       = "#928374";
+static const char col_gray3[]       = "#d4be98";
+static const char col_gray4[]       = "#282828";
+static const char col_cyan[]        = "#a9b665";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray1, col_gray3, col_gray3 },
+	[SchemeSel]  = { col_gray1, col_gray2, col_gray3 },
 };
 
 /* tagging */
